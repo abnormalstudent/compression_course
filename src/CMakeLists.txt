@@ -1,15 +1,6 @@
-set (CMAKE_C_STANDARD 11)
+cmake_minimum_required(VERSION 3.17)
+project(cpp_compressor)
 
-cmake_minimum_required(VERSION 3.1)
+set(CMAKE_CXX_STANDARD 17)
 
-project(compressor)
-
-set(SOURCE_EXE main.c)
-
-set(SOURCE_LIB utils.c ari.c ppm.c bwt.c)
-
-add_library(utils STATIC ${SOURCE_LIB})
-
-add_executable(compress ${SOURCE_EXE})
-
-target_link_libraries(compress utils)
+add_executable(compress main.cpp ari.h ari.cpp utils.cpp utils.h)
