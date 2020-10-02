@@ -6,8 +6,12 @@
 #define CPP_COMPRESSOR_ARI_H
 
 #pragma once
+#include <unordered_map>
 
-void compress_ari(char *ifile, char *ofile);
-void decompress_ari(char *ifile, char *ofile);
-
+struct Segment {
+    uint64_t lower;
+    uint64_t upper; 
+};
+void compress_ari(const char* input_file, char* output_file);
+void decompress_ari(const char* input_file, char* output_file);
 #endif //CPP_COMPRESSOR_ARI_H
