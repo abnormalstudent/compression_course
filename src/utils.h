@@ -1,10 +1,3 @@
-//
-// Created by eduard on 30/09/2020.
-//
-
-#ifndef CPP_COMPRESSOR_UTILS_H
-#define CPP_COMPRESSOR_UTILS_H
-
 #pragma once
 
 enum {
@@ -29,5 +22,3 @@ void print_config(CompressOptions *opts);
 void free_compress_opts(CompressOptions *opts);
 
 int can_open_file(const char *filename);
-
-#endif //CPP_COMPRESSOR_UTILS_H
