@@ -10,9 +10,9 @@ Me
 
 ## Execution options
 ```
---input  <file>            = input file, default = `input.txt`.
---output <file>            = output file, default = `output.txt`.
---mode   {c | d}           = 'c' ~ encryption, 'd' ~ decryption, default = 'd', .
+--input  <file>      = input file, default = `input.txt`.
+--output <file>      = output file, default = `output.txt`.
+--mode   {c | d}     = 'c' ~ encryption, 'd' ~ decryption, default = 'd', .
 --method {ari | ppm} = 'ari' - arithmetic coding, 'ppm' - prediction by partial matching, default = 'ari'.
 ```
 
