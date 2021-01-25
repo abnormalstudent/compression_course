@@ -1,6 +1,8 @@
 # Arithmetic coding
 
-Arithmetic coding is the loss-less compression algorithm which works the best by a theoretical bound. When encrypting the current symbol, we have to predict how distribution of the real data will change with time, the better we do that - the better the compression will be.
+Arithmetic coding is the loss-less compression algorithm which works the best by a theoretical bound. 
+
+When encrypting the current symbol, we have to predict how distribution of the real data will change with time, the better we do that - the better the compression will be.
 
 ### Template
 
