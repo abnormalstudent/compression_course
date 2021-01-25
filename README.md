@@ -2,7 +2,7 @@
 
 ### Template
 
-[CMC MSU Videogroup](https://github.com/msu-video-group)
+[MSU Videogroup](https://github.com/msu-video-group)
 
 ### Algorithm
 
